@@ -481,7 +481,7 @@ main .hr2{
     }
     .scroll-top{
         position: fixed;
-        right: 90px;
+        right: 20px;
     }
     /* Start header navbar */
     header nav .collapse ul{
@@ -495,12 +495,15 @@ main .hr2{
     .photo-slide .carousel .carousel-inner .carousel-item img{
         height: 300px;
     }
-    .photo-slide .slide .carousel-inner .carousel-item .text-center  h1{
+    .photo-slide .slider-container .slider-wrapper .slide .carousel-caption{
+        top: 20px;
+    }
+    .photo-slide .slider-container .slider-wrapper .slide .carousel-caption  h1{
         font-size: 30px;
         position: relative;
         top: 50px;
     }
-    .photo-slide .slide .carousel-inner .carousel-item .text-center button{
+    .photo-slide .slider-container .slider-wrapper .slide .carousel-caption button{
         width: 80px;
         height: 20px;
         font-size: 12px;
