@@ -15,6 +15,7 @@ document.getElementById("scrollToTopBtn").addEventListener("click", function() {
 });
 
 
+
 // Validtion input email 
 const form = document.querySelector("form"),
   emailField = form.querySelector(".email-field"),
@@ -42,6 +43,7 @@ form.addEventListener("submit", (e) => {
     location.href = form.getAttribute("action");
   }
 });
+
 
 // Code Js for salider image 
 const sliderWrapper = document.querySelector('.slider-wrapper');
@@ -76,39 +78,5 @@ nextBtn.addEventListener('click', slideNext);
 setInterval(slideNext, 5000);
 
 
-
-// js 1
-const searchInput = document.getElementById('search-input');
-const searchButton = document.getElementById('search-button');
-
-searchButton.addEventListener('click', performSearch);
-searchInput.addEventListener('keydown', function(e) {
-  if (e.key === 'Enter') {
-    performSearch();
-  }
-});
-
-function performSearch() {
-  const searchText = searchInput.value.toLowerCase();
-  // Perform your search logic here
-  console.log('Searching for:', searchText);
-}
-
-// js 2 
-// JavaScript code
-function search_animal() {
-	let input = document.getElementById('searchbar').value
-	input=input.toLowerCase();
-	let x = document.getElementsByClassName('animals');
-	
-	for (i = 0; i < x.length; i++) {
-		if (!x[i].innerHTML.toLowerCase().includes(input)) {
-			x[i].style.display="none";
-		}
-		else {
-			x[i].style.display="list-item";				
-		}
-	}
-}
 
 
