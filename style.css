@@ -558,11 +558,26 @@ main .hr2{
     .main{
         width: 100%;
     }
+    .scroll-top{
+        position: fixed;
+        right: 20px;
+    }
     header nav .collapse ul{
         margin: 0 0px;
     } 
     header .navbar{
         padding-bottom: 20px;
+    }
+    .photo-slide .slider-container .slider-wrapper .slide .carousel-caption  h1{
+        font-size: 30px;
+        position: relative;
+        top: 50px;
+    }
+    .photo-slide .slider-container .slider-wrapper .slide .carousel-caption button{
+        width: 80px;
+        height: 20px;
+        font-size: 12px;
+        margin: 23px 0 0 0;
     }
    
     .notre {
